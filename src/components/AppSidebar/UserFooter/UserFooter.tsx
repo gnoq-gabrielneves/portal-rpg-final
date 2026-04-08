@@ -1,5 +1,5 @@
 "use client";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -45,6 +45,7 @@ export function UserFooter() {
               className="data-[state=open]:bg-sidebar-accent data-[state=open]:text-sidebar-accent-foreground hover:bg-gray-100 cursor-pointer"
             >
               <Avatar>
+                <AvatarImage src={user?.profile.avatar_url} />
                 <AvatarFallback className="rounded-lg bg-amber-600 text-white">
                   <UserIcon />
                 </AvatarFallback>
