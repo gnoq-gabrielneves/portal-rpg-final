@@ -6,7 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { NewBug } from "@/features/NewBug";
+import { NewBug } from "@/features/support/components/NewBug";
 import {
   BugIcon,
   CoffeeIcon,

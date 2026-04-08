@@ -18,6 +18,10 @@ export default function PrivateLayout({
       description:
         "Bem-vindo ao nosso portal! Pronto pra começar ou continuar suas aventuras?",
     },
+    "/characters": {
+      title: "Personagens",
+      description: "Crie, delete e alteres os personsagens da sua campanha!",
+    },
     "/about": {
       title: "Sobre",
       description:
